@@ -1,0 +1,28 @@
+Abstraction Assignment:
+==========================
+
+Assignment 1:
+=============
+ Interface :HardWare
+     Methods   :hardwareResources()
+
+     Interface :Software
+     Methods   :softwareResources()
+
+     Class     :Desktop
+     Methods   :desktopModel()
+
+Description:
+create 2 Interface and achieve multiple inheritance.
+
+Assignment2:
+============
+     AbstractClass     :University
+     Methods              : pg()(implemented method), ug() (unimplemented method)
+
+     Class        :College extends University
+     Methods   :ug()
+
+Description:
+ug() is just a templete in University Abstract class and You have to implement the method ug() in College class.
+Execute both ug() & pg()
